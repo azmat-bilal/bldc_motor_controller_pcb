@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DRV8301DCAR)(type Legacy)(uri /home/azmat/Projects/OpenSource/bldc_motor_controller_pcb/libraries/DRV8301DCAR.lib)(options "")(descr ""))
+)
