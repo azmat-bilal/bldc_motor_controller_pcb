@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
+Title "Motor Driver"
+Date "2020-01-29"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1648,10 +1648,10 @@ Connection ~ 2500 6850
 Text Notes 750  7250 0    50   ~ 0
 FET Gate Charge Total= 41nC.\nGate Driver avg current = 41nC x 6 x sw Freq
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP8
 U 1 1 5E3E875A
 P 6600 4350
-F 0 "TP?" H 6658 4422 50  0000 L CNN
+F 0 "TP8" H 6658 4422 50  0000 L CNN
 F 1 "TestPoint" H 6658 4377 50  0001 L CNN
 F 2 "" H 6800 4350 50  0001 C CNN
 F 3 "~" H 6800 4350 50  0001 C CNN
@@ -1659,10 +1659,10 @@ F 3 "~" H 6800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP9
 U 1 1 5E3EB769
 P 6750 4950
-F 0 "TP?" H 6808 5022 50  0000 L CNN
+F 0 "TP9" H 6808 5022 50  0000 L CNN
 F 1 "TestPoint" H 6808 4977 50  0001 L CNN
 F 2 "" H 6950 4950 50  0001 C CNN
 F 3 "~" H 6950 4950 50  0001 C CNN
@@ -1670,10 +1670,10 @@ F 3 "~" H 6950 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP7
 U 1 1 5E3EBAD9
 P 8500 3350
-F 0 "TP?" H 8558 3422 50  0000 L CNN
+F 0 "TP7" H 8558 3422 50  0000 L CNN
 F 1 "TestPoint" H 8558 3377 50  0001 L CNN
 F 2 "" H 8700 3350 50  0001 C CNN
 F 3 "~" H 8700 3350 50  0001 C CNN
@@ -1682,10 +1682,10 @@ F 3 "~" H 8700 3350 50  0001 C CNN
 $EndComp
 Connection ~ 8500 3350
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5E3EC461
 P 8300 2850
-F 0 "TP?" H 8358 2922 50  0000 L CNN
+F 0 "TP4" H 8358 2922 50  0000 L CNN
 F 1 "TestPoint" H 8358 2877 50  0001 L CNN
 F 2 "" H 8500 2850 50  0001 C CNN
 F 3 "~" H 8500 2850 50  0001 C CNN
@@ -1696,10 +1696,10 @@ Connection ~ 8300 2850
 Wire Wire Line
 	8300 2850 7600 2850
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 5E3ECCC4
 P 8100 2950
-F 0 "TP?" H 8158 3022 50  0000 L CNN
+F 0 "TP5" H 8158 3022 50  0000 L CNN
 F 1 "TestPoint" H 8158 2977 50  0001 L CNN
 F 2 "" H 8300 2950 50  0001 C CNN
 F 3 "~" H 8300 2950 50  0001 C CNN
@@ -1710,10 +1710,10 @@ Connection ~ 8100 2950
 Wire Wire Line
 	8100 2950 8500 2950
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5E3ED63E
 P 8000 3050
-F 0 "TP?" H 7942 3122 50  0000 R CNN
+F 0 "TP6" H 7942 3122 50  0000 R CNN
 F 1 "TestPoint" H 8058 3077 50  0001 L CNN
 F 2 "" H 8200 3050 50  0001 C CNN
 F 3 "~" H 8200 3050 50  0001 C CNN
@@ -1721,10 +1721,10 @@ F 3 "~" H 8200 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5E401506
 P 7250 6100
-F 0 "J?" H 7330 6142 50  0000 L CNN
+F 0 "J10" H 7330 6142 50  0000 L CNN
 F 1 "MR30PW-M 15A (30A)" H 7330 6051 50  0000 L CNN
 F 2 "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal" H 7250 6100 50  0001 C CNN
 F 3 "~" H 7250 6100 50  0001 C CNN

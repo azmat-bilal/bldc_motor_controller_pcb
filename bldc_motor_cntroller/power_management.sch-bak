@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
+Title "Power Management"
+Date "2020-01-29"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -817,10 +817,10 @@ $EndComp
 Text Notes 4900 7250 0    100  ~ 0
 BRAKING CIRCUIT
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5E3F134B
 P 1550 1750
-F 0 "J?" H 1468 1425 50  0000 C CNN
+F 0 "J8" H 1468 1425 50  0000 C CNN
 F 1 "XT60" H 1468 1516 50  0000 C CNN
 F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 1550 1750 50  0001 C CNN
 F 3 "~" H 1550 1750 50  0001 C CNN
@@ -838,10 +838,10 @@ Wire Wire Line
 	1900 2400 2250 2400
 Connection ~ 2250 2400
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5E3F8372
 P 5850 5600
-F 0 "J?" H 5930 5592 50  0000 L CNN
+F 0 "J9" H 5930 5592 50  0000 L CNN
 F 1 "XT60" H 5930 5501 50  0000 L CNN
 F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 5850 5600 50  0001 C CNN
 F 3 "~" H 5850 5600 50  0001 C CNN
@@ -856,8 +856,8 @@ U 1 1 5E3FC6DF
 P 5650 5600
 AR Path="/5E2D92F4/5E3FC6DF" Ref="#PWR?"  Part="1" 
 AR Path="/5E377C6C/5E3FC6DF" Ref="#PWR?"  Part="1" 
-AR Path="/5E2D9349/5E3FC6DF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 5350 50  0001 C CNN
+AR Path="/5E2D9349/5E3FC6DF" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 5650 5350 50  0001 C CNN
 F 1 "GND" H 5655 5427 50  0000 C CNN
 F 2 "" H 5650 5600 50  0001 C CNN
 F 3 "" H 5650 5600 50  0001 C CNN

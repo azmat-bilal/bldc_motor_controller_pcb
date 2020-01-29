@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
+Title "Motor Driver"
+Date "2020-01-29"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1731,4 +1731,6 @@ F 3 "~" H 7250 6100 50  0001 C CNN
 	1    7250 6100
 	1    0    0    -1  
 $EndComp
+Text Notes 7350 6450 0    50   ~ 0
+MP30 can handle 30A peak and 15A cont.\nif more current is needed, the connector \ncant be changed.
 $EndSCHEMATC

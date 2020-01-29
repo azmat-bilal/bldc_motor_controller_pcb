@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
+Title "Power Management"
+Date "2020-01-29"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
