@@ -411,9 +411,9 @@ CTRL_HI
 Text HLabel 2000 5500 0    50   Input ~ 0
 CTRL_LI
 Wire Wire Line
-	2000 5500 3150 5500
+	2000 5500 2350 5500
 Wire Wire Line
-	3150 5400 2000 5400
+	3150 5400 2700 5400
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5E51BA03
@@ -538,4 +538,66 @@ Wire Notes Line
 	6500 4250 1500 4250
 Wire Wire Line
 	5850 5500 5500 5500
+$Comp
+L Device:R R?
+U 1 1 5E543028
+P 2700 5750
+AR Path="/5E2D92F4/5E543028" Ref="R?"  Part="1" 
+AR Path="/5E377C6C/5E543028" Ref="R?"  Part="1" 
+F 0 "R?" H 2630 5704 50  0000 R CNN
+F 1 "3.3k" H 2630 5795 50  0000 R CNN
+F 2 "" V 2630 5750 50  0001 C CNN
+F 3 "~" H 2700 5750 50  0001 C CNN
+	1    2700 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5432A9
+P 2350 5750
+AR Path="/5E2D92F4/5E5432A9" Ref="R?"  Part="1" 
+AR Path="/5E377C6C/5E5432A9" Ref="R?"  Part="1" 
+F 0 "R?" H 2280 5704 50  0000 R CNN
+F 1 "3.3k" H 2280 5795 50  0000 R CNN
+F 2 "" V 2280 5750 50  0001 C CNN
+F 3 "~" H 2350 5750 50  0001 C CNN
+	1    2350 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 5600 2350 5500
+Connection ~ 2350 5500
+Wire Wire Line
+	2350 5500 3150 5500
+Wire Wire Line
+	2700 5600 2700 5400
+Connection ~ 2700 5400
+Wire Wire Line
+	2700 5400 2000 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E546B20
+P 2350 5900
+AR Path="/5E2D92F4/5E546B20" Ref="#PWR?"  Part="1" 
+AR Path="/5E377C6C/5E546B20" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 5650 50  0001 C CNN
+F 1 "GND" H 2355 5727 50  0000 C CNN
+F 2 "" H 2350 5900 50  0001 C CNN
+F 3 "" H 2350 5900 50  0001 C CNN
+	1    2350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E546EEF
+P 2700 5900
+AR Path="/5E2D92F4/5E546EEF" Ref="#PWR?"  Part="1" 
+AR Path="/5E377C6C/5E546EEF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 5650 50  0001 C CNN
+F 1 "GND" H 2705 5727 50  0000 C CNN
+F 2 "" H 2700 5900 50  0001 C CNN
+F 3 "" H 2700 5900 50  0001 C CNN
+	1    2700 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
