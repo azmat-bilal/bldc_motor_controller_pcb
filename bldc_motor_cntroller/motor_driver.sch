@@ -1733,5 +1733,5 @@ F 3 "~" H 7250 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7350 6450 0    50   ~ 0
-MP30 can handle 30A peak and 15A cont.\nif more current is needed, the connector \ncant be changed.
+MP30 can handle 30A peak and 15A cont.\nif more current is needed, the connector \ncan be changed.
 $EndSCHEMATC
