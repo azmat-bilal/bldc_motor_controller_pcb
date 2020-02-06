@@ -841,21 +841,15 @@ Wire Wire Line
 Wire Wire Line
 	6300 2200 6300 2600
 Wire Wire Line
-	6300 2600 4600 2600
-Wire Wire Line
-	4600 2600 4600 3550
+	6300 2600 5100 2600
 Wire Wire Line
 	6500 2100 6500 2700
 Wire Wire Line
-	6500 2700 4700 2700
-Wire Wire Line
-	4700 2700 4700 3550
+	6500 2700 5200 2700
 Wire Wire Line
 	6700 2000 6700 2800
 Wire Wire Line
-	6700 2800 4800 2800
-Wire Wire Line
-	4800 2800 4800 3550
+	6700 2800 5300 2800
 $Comp
 L power:+5V #PWR?
 U 1 1 5E600F29
@@ -878,28 +872,10 @@ Wire Wire Line
 Connection ~ 6600 5650
 Wire Wire Line
 	6600 5650 6750 5650
-Wire Wire Line
-	6600 4550 6600 3400
-Wire Wire Line
-	6600 3400 5300 3400
-Wire Wire Line
-	5300 3400 5300 3550
 Connection ~ 6600 4550
-Wire Wire Line
-	6700 4450 6700 3300
-Wire Wire Line
-	6700 3300 5200 3300
-Wire Wire Line
-	5200 3300 5200 3550
 Connection ~ 6700 4450
 Wire Wire Line
 	6700 4450 7400 4450
-Wire Wire Line
-	6850 4650 6850 3200
-Wire Wire Line
-	6850 3200 5100 3200
-Wire Wire Line
-	5100 3200 5100 3550
 Connection ~ 6850 4650
 Wire Wire Line
 	6850 4650 7500 4650
@@ -910,4 +886,30 @@ Wire Wire Line
 	3600 3450 4900 3450
 Wire Wire Line
 	4500 3350 4500 3550
+Wire Wire Line
+	6600 3150 4800 3150
+Wire Wire Line
+	4800 3150 4800 3550
+Wire Wire Line
+	6600 3150 6600 4550
+Wire Wire Line
+	6700 3050 4700 3050
+Wire Wire Line
+	4700 3050 4700 3550
+Wire Wire Line
+	6700 3050 6700 4450
+Wire Wire Line
+	6850 2950 4600 2950
+Wire Wire Line
+	4600 2950 4600 3550
+Wire Wire Line
+	6850 2950 6850 4650
+Wire Wire Line
+	5300 3550 5300 2800
+Wire Wire Line
+	5200 3550 5200 2700
+Wire Wire Line
+	5100 3550 5100 2600
+Text Notes 2850 1100 0    50   ~ 0
+GPIO1 and GPIO2 can be used for\nserial communication.
 $EndSCHEMATC
