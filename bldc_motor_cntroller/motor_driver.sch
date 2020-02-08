@@ -1090,10 +1090,6 @@ F 3 "" H 2500 6850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 5900 2500 6000
-Wire Wire Line
-	5500 5900 5500 6200
-Wire Wire Line
-	4000 5900 4000 6100
 $Comp
 L Device:Net-Tie_2 NT2
 U 1 1 5E5ED3BF
@@ -1131,25 +1127,15 @@ Wire Wire Line
 	2850 3850 3550 3850
 Text Label 2550 6000 0    50   ~ 0
 SH_A
-Text Label 4050 6100 0    50   ~ 0
+Text Label 4050 6200 0    50   ~ 0
 SH_B
-Text Label 5550 6200 0    50   ~ 0
+Text Label 5550 6100 0    50   ~ 0
 SH_C
 Wire Wire Line
 	2500 6000 7050 6000
 Connection ~ 2500 6000
 Wire Wire Line
 	2500 6000 2500 6250
-Wire Wire Line
-	4000 6100 7050 6100
-Connection ~ 4000 6100
-Wire Wire Line
-	4000 6100 4000 6250
-Wire Wire Line
-	5500 6200 7050 6200
-Connection ~ 5500 6200
-Wire Wire Line
-	5500 6200 5500 6250
 Text Label 2100 6850 0    50   ~ 0
 SL_A
 Text Label 3450 6850 0    50   ~ 0
@@ -1734,4 +1720,18 @@ F 3 "~" H 7250 6100 50  0001 C CNN
 $EndComp
 Text Notes 7350 6450 0    50   ~ 0
 MP30 can handle 30A peak and 15A cont.\nif more current is needed, the connector \ncan be changed.
+Wire Wire Line
+	4000 5900 4000 6200
+Wire Wire Line
+	5500 5900 5500 6100
+Wire Wire Line
+	5500 6100 7050 6100
+Connection ~ 5500 6100
+Wire Wire Line
+	5500 6100 5500 6250
+Wire Wire Line
+	7050 6200 4000 6200
+Connection ~ 4000 6200
+Wire Wire Line
+	4000 6200 4000 6250
 $EndSCHEMATC
