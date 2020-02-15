@@ -414,8 +414,8 @@ L Connector:USB_B_Micro J5
 U 1 1 5E381625
 P 2200 5100
 F 0 "J5" H 2257 5567 50  0000 C CNN
-F 1 "0475900001" H 2257 5476 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 2350 5050 50  0001 C CNN
+F 1 "0473460001" H 2257 5476 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2350 5050 50  0001 C CNN
 F 3 "~" H 2350 5050 50  0001 C CNN
 	1    2200 5100
 	1    0    0    -1  
@@ -492,20 +492,6 @@ Wire Wire Line
 	2650 4800 2650 4900
 Wire Wire Line
 	2650 4900 2500 4900
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E39A600
-P 2900 4800
-F 0 "TP1" V 2900 4988 50  0000 L CNN
-F 1 "TestPoint" V 2945 4988 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3100 4800 50  0001 C CNN
-F 3 "~" H 3100 4800 50  0001 C CNN
-	1    2900 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2900 4800 2650 4800
-Connection ~ 2650 4800
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5E39DE72
@@ -603,28 +589,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 2750 6850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 6050 2750 6450
-$Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 5E3CD122
-P 4200 6800
-F 0 "J7" H 4280 6792 50  0000 L CNN
-F 1 "SH-SM02B-SRSS" H 4280 6701 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 4200 6800 50  0001 C CNN
-F 3 "~" H 4200 6800 50  0001 C CNN
-	1    4200 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5E3D290A
-P 3550 6850
-F 0 "R12" V 3450 6800 50  0000 C CNN
-F 1 "120R" V 3550 6850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3480 6850 50  0001 C CNN
-F 3 "~" H 3550 6850 50  0001 C CNN
-	1    3550 6850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3250 6750 3350 6750
 Wire Wire Line
@@ -632,25 +596,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 6700 3550 6700
 Wire Wire Line
-	3900 6700 3900 6800
-Wire Wire Line
-	3900 6800 4000 6800
-Connection ~ 3550 6700
-Wire Wire Line
-	3550 6700 3900 6700
-Wire Wire Line
 	3250 6950 3350 6950
 Wire Wire Line
 	3350 6950 3350 7000
 Wire Wire Line
 	3350 7000 3550 7000
-Wire Wire Line
-	3900 7000 3900 6900
-Wire Wire Line
-	3900 6900 4000 6900
-Connection ~ 3550 7000
-Wire Wire Line
-	3550 7000 3900 7000
 Text HLabel 1650 6650 0    50   Input ~ 0
 CAN_D
 Text HLabel 1650 6750 0    50   Output ~ 0
@@ -666,7 +616,7 @@ P 8750 2000
 AR Path="/5E377C6C/5E38F4AB" Ref="J?"  Part="1" 
 AR Path="/5E2D92A8/5E38F4AB" Ref="J1"  Part="1" 
 F 0 "J1" H 8830 1992 50  0000 L CNN
-F 1 "SM06B-SRSS-TB" H 8830 1901 50  0000 L CNN
+F 1 "SM06B-SRSS-TB(LF)(SN)" H 8830 1901 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" H 8750 2000 50  0001 C CNN
 F 3 "~" H 8750 2000 50  0001 C CNN
 	1    8750 2000
@@ -912,4 +862,62 @@ Wire Wire Line
 	5100 3550 5100 2600
 Text Notes 2850 1100 0    50   ~ 0
 GPIO1 and GPIO2 can be used for\nserial communication.
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5E58BAE0
+P 4100 6350
+F 0 "J3" V 4300 6450 50  0000 L CNN
+F 1 "SM04B-SRSS-TB(LF)(SN)" V 4200 5950 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4100 6350 50  0001 C CNN
+F 3 "~" H 4100 6350 50  0001 C CNN
+	1    4100 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR02
+U 1 1 5E58D69E
+P 3750 6550
+F 0 "#PWR02" H 3750 6400 50  0001 C CNN
+F 1 "VDD" H 3767 6723 50  0000 C CNN
+F 2 "" H 3750 6550 50  0001 C CNN
+F 3 "" H 3750 6550 50  0001 C CNN
+	1    3750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E58D909
+P 4350 6550
+F 0 "#PWR03" H 4350 6300 50  0001 C CNN
+F 1 "GND" H 4355 6377 50  0000 C CNN
+F 2 "" H 4350 6550 50  0001 C CNN
+F 3 "" H 4350 6550 50  0001 C CNN
+	1    4350 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 6550 4300 6550
+$Comp
+L Device:R R12
+U 1 1 5E3D290A
+P 3550 6850
+F 0 "R12" V 3450 6800 50  0000 C CNN
+F 1 "120R" V 3550 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3480 6850 50  0001 C CNN
+F 3 "~" H 3550 6850 50  0001 C CNN
+	1    3550 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 6700 4200 6700
+Wire Wire Line
+	4200 6700 4200 6550
+Connection ~ 3550 6700
+Wire Wire Line
+	4100 6550 4100 7000
+Wire Wire Line
+	4100 7000 3550 7000
+Connection ~ 3550 7000
+Wire Wire Line
+	3750 6550 4000 6550
 $EndSCHEMATC
