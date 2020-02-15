@@ -243,4 +243,59 @@ NoConn ~ 4500 6900
 NoConn ~ 4500 3300
 NoConn ~ 2000 4700
 NoConn ~ 2000 4600
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5E43C932
+P 7850 5850
+F 0 "H1" H 7950 5853 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7950 5808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 7850 5850 50  0001 C CNN
+F 3 "~" H 7850 5850 50  0001 C CNN
+	1    7850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E4423C1
+P 8200 5850
+F 0 "H2" H 8300 5853 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8300 5808 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 8200 5850 50  0001 C CNN
+F 3 "~" H 8200 5850 50  0001 C CNN
+	1    8200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5E48DBFB
+P 8850 5950
+F 0 "HS1" H 8992 6071 50  0000 L CNN
+F 1 "Heatsink" H 8992 5980 50  0000 L CNN
+F 2 "bldc_motor_cntroller:heatsink14x14x6" H 8862 5950 50  0001 C CNN
+F 3 "~" H 8862 5950 50  0001 C CNN
+	1    8850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS2
+U 1 1 5E4936A1
+P 9500 5950
+F 0 "HS2" H 9642 6071 50  0000 L CNN
+F 1 "Heatsink" H 9642 5980 50  0000 L CNN
+F 2 "bldc_motor_cntroller:heatsink14x14x6" H 9512 5950 50  0001 C CNN
+F 3 "~" H 9512 5950 50  0001 C CNN
+	1    9500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS3
+U 1 1 5E49388C
+P 10150 5950
+F 0 "HS3" H 10292 6071 50  0000 L CNN
+F 1 "Heatsink" H 10292 5980 50  0000 L CNN
+F 2 "bldc_motor_cntroller:heatsink14x14x6" H 10162 5950 50  0001 C CNN
+F 3 "~" H 10162 5950 50  0001 C CNN
+	1    10150 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
