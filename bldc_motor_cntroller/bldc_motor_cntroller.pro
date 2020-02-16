@@ -1,4 +1,4 @@
-update=Sat 15 Feb 2020 02:13:56 AM CET
+update=Sun 16 Feb 2020 11:03:31 PM CET
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=outputs/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=100
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -55,7 +45,7 @@ dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=0.7999999999999999
-SilkTextSizeH=1
+SilkTextSizeH=0.7999999999999999
 SilkTextSizeThickness=0.12
 SilkTextItalic=0
 SilkTextUpright=1
@@ -67,10 +57,10 @@ CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.05
 CourtyardLineWidth=0.05
-OthersLineWidth=0.15
-OthersTextSizeV=0.7999999999999999
-OthersTextSizeH=0.7999999999999999
-OthersTextSizeThickness=0.15
+OthersLineWidth=0.2
+OthersTextSizeV=1.5
+OthersTextSizeH=1.5
+OthersTextSizeThickness=0.2
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0.051
@@ -266,3 +256,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=outputs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=100
+ERC_TestSimilarLabels=1
