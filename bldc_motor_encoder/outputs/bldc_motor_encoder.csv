@@ -1,0 +1,8 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J3,J2";"JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal";2;"SM06B-SRSS-TB";;;
+2;"J1";"PinHeader_1x05_P2.54mm_Horizontal";1;"Conn_01x05";;;
+3;"H1,H2";"MountingHole_3.2mm_M3_DIN965_Pad";2;"MountingHole";;;
+4;"TP6,TP5,TP4,TP3,TP2,TP1";"TestPoint_Pad_D1.5mm";6;"TestPoint";;;
+5;"U1";"TSSOP-14_4.4x5mm_P0.65mm";1;"AS5047P";;;
+6;"C2";"C_0402_1005Metric";1;"1uF";;;
+7;"C1";"C_0402_1005Metric";1;"100nF";;;
