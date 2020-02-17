@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bldc_motor_cntroller)(type KiCad)(uri /home/azmat/Projects/OpenSource/bldc_motor_controller_pcb/libraries/bldc_motor_cntroller.pretty)(options "")(descr ""))
+)
