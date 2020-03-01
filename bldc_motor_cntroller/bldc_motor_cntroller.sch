@@ -251,6 +251,7 @@ F 0 "H1" H 7950 5853 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7950 5808 50  0001 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 7850 5850 50  0001 C CNN
 F 3 "~" H 7850 5850 50  0001 C CNN
+F 4 "-" H 7850 5850 50  0001 C CNN "MPN"
 	1    7850 5850
 	1    0    0    -1  
 $EndComp
@@ -262,6 +263,7 @@ F 0 "H2" H 8300 5853 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8300 5808 50  0001 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 8200 5850 50  0001 C CNN
 F 3 "~" H 8200 5850 50  0001 C CNN
+F 4 "-" H 8200 5850 50  0001 C CNN "MPN"
 	1    8200 5850
 	1    0    0    -1  
 $EndComp
@@ -273,6 +275,7 @@ F 0 "HS1" H 8992 6071 50  0000 L CNN
 F 1 "Heatsink" H 8992 5980 50  0000 L CNN
 F 2 "bldc_motor_cntroller:heatsink14x14x6" H 8862 5950 50  0001 C CNN
 F 3 "~" H 8862 5950 50  0001 C CNN
+F 4 "-" H 8850 5950 50  0001 C CNN "MPN"
 	1    8850 5950
 	1    0    0    -1  
 $EndComp
@@ -284,6 +287,7 @@ F 0 "HS2" H 9642 6071 50  0000 L CNN
 F 1 "Heatsink" H 9642 5980 50  0000 L CNN
 F 2 "bldc_motor_cntroller:heatsink14x14x6" H 9512 5950 50  0001 C CNN
 F 3 "~" H 9512 5950 50  0001 C CNN
+F 4 "-" H 9500 5950 50  0001 C CNN "MPN"
 	1    9500 5950
 	1    0    0    -1  
 $EndComp
@@ -295,6 +299,7 @@ F 0 "HS3" H 10292 6071 50  0000 L CNN
 F 1 "Heatsink" H 10292 5980 50  0000 L CNN
 F 2 "bldc_motor_cntroller:heatsink14x14x6" H 10162 5950 50  0001 C CNN
 F 3 "~" H 10162 5950 50  0001 C CNN
+F 4 "-" H 10150 5950 50  0001 C CNN "MPN"
 	1    10150 5950
 	1    0    0    -1  
 $EndComp
